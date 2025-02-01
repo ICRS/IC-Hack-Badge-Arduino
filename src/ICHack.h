@@ -8,6 +8,12 @@ static const uint8_t LOGO_I = 6;
 static const uint8_t LOGO_C = 5;
 static const uint8_t LOGO_H = 4;
 
+// Input pins
+static const uint8_t BUTTON_X = 2;
+static const uint8_t BUTTON_y = 0;
+static const uint8_t BUTTON_A = 3;
+static const uint8_t BUTTON_B = 1;
+
 // Display macros
 #define FRAME_BUFFER_WIDTH 5
 #define FRAME_BUFFER_HEIGHT 24
