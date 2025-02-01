@@ -10,7 +10,7 @@ static const uint8_t LOGO_H = 4;
 
 // Input pins
 static const uint8_t BUTTON_X = 2;
-static const uint8_t BUTTON_y = 0;
+static const uint8_t BUTTON_Y = 0;
 static const uint8_t BUTTON_A = 3;
 static const uint8_t BUTTON_B = 1;
 
