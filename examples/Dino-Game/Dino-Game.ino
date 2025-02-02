@@ -225,7 +225,8 @@ void loop() {
 
   if (gameover) {
     display_clear();
-    display_draw_string("SCORE", 5, 23);
+    static char score_message[] = "SCORE";
+    display_draw_string(score_message, 5, 23);
     delay(1000);
     display_clear();
     display_draw_string((char*)(std::to_string(score).c_str()), std::to_string(score).length(), 23);
